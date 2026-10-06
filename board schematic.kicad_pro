@@ -661,7 +661,7 @@
         "uuid": "5a6379c8-1126-4f97-a2c5-94ed45de43af"
       }
     ],
-    "used_designators": "Ethernet_Switch1,12V_to_5V_DC\\-DC_Converter1,12_to_12(10A)_Buck_Converter1,12_to_12(3A)_Buck_Converter1,Battery\\-12V1,ORIN_AGX1,POE_Injector1,R1-2,Wireless_Access_Point1,Lidar1,Zed_2I_Cam1,CAN_to_Analog1",
+    "used_designators": "12V_to_5V_DC\\-DC_Converter1,Ethernet_Switch1,POE_Injector1,12_to_12(10A)_Buck_Converter1,12_to_12(3A)_Buck_Converter1,Battery\\-12V1,ORIN_AGX1,R1-2,Wireless_Access_Point1,Lidar1,Zed_2I_Cam1,CAN_to_Analog1",
     "variants": []
   },
   "sheets": [
