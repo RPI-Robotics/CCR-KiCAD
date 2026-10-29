@@ -3656,10 +3656,6 @@
 		(uuid "3133aa6b-2e52-410f-9008-543dd61d0827")
 	)
 	(no_connect
-		(at 231.14 156.21)
-		(uuid "34c7fac3-8464-4aef-8800-e1914170f1c0")
-	)
-	(no_connect
 		(at 231.14 151.13)
 		(uuid "3fe8d2c9-7703-436e-9ccb-0fae161ebe22")
 	)
@@ -3805,6 +3801,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 27.94) (xy 63.5 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "214aaa89-751d-43c1-a9ec-e3aede60d296")
+	)
+	(wire
+		(pts
 			(xy 43.18 20.32) (xy 43.18 21.59)
 		)
 		(stroke
@@ -3822,6 +3828,16 @@
 			(type default)
 		)
 		(uuid "28f4f0bd-8f9f-4b1c-abad-26de13365cb4")
+	)
+	(wire
+		(pts
+			(xy 71.12 27.94) (xy 71.12 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fdc2c8a-051c-4dd9-8ecc-693e0af1a734")
 	)
 	(wire
 		(pts
@@ -3845,7 +3861,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 34.29) (xy 74.93 34.29)
+			(xy 68.58 27.94) (xy 71.12 27.94)
 		)
 		(stroke
 			(width 0)
@@ -3925,6 +3941,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 34.29) (xy 53.34 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "694ee0a0-1909-406a-99c9-b1320f7ab96d")
+	)
+	(wire
+		(pts
 			(xy 241.3 35.56) (xy 254 35.56)
 		)
 		(stroke
@@ -3935,7 +3961,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 34.29) (xy 66.04 34.29)
+			(xy 63.5 27.94) (xy 66.04 27.94)
 		)
 		(stroke
 			(width 0)
@@ -4092,6 +4118,16 @@
 			(type default)
 		)
 		(uuid "d685136d-fd34-47bc-99e0-c37a33eb1350")
+	)
+	(wire
+		(pts
+			(xy 71.12 34.29) (xy 74.93 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d93f7283-673f-4c24-a26f-f41a0eaf09d9")
 	)
 	(wire
 		(pts
@@ -4552,7 +4588,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0c45e46a-a8ca-42d6-bb83-4ec1dfcd5ed9")
-		(property "Reference" "R5"
+		(property "Reference" "I2CPullup1"
 			(at 35.56 186.6899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4616,7 +4652,7 @@
 		(instances
 			(project "estop_remote_schematic"
 				(path "/5c08b7c6-3fe1-4a20-81ff-6cf06621ce55"
-					(reference "R5")
+					(reference "I2CPullup1")
 					(unit 1)
 				)
 			)
@@ -4634,7 +4670,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0d7c3365-a344-4b47-a4ed-fa7d26907e89")
-		(property "Reference" "C5"
+		(property "Reference" "ADCDecouplingCapacitor1"
 			(at 58.42 53.3399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4698,15 +4734,15 @@
 		(instances
 			(project "estop_remote_schematic"
 				(path "/5c08b7c6-3fe1-4a20-81ff-6cf06621ce55"
-					(reference "C5")
+					(reference "ADCDecouplingCapacitor1")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 66.04 29.21 90)
+		(lib_id "power:+6V")
+		(at 231.14 156.21 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4714,31 +4750,32 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "133332e0-0c56-46c6-8deb-8083ccd6dde1")
-		(property "Reference" "J1"
-			(at 66.04 24.13 90)
+		(fields_autoplaced yes)
+		(uuid "0fb6e263-4162-46ee-9f98-91d845d86456")
+		(property "Reference" "#PWR021"
+			(at 234.95 156.21 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "Power Switch"
-			(at 60.452 26.416 90)
+		(property "Value" "+6V"
+			(at 227.33 156.2099 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_S2B-XH-A_1x02_P2.50mm_Horizontal"
-			(at 66.04 29.21 0)
+		(property "Footprint" ""
+			(at 231.14 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4749,7 +4786,85 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 66.04 29.21 0)
+			(at 231.14 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+6V\""
+			(at 231.14 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c07f5918-4b7e-4fbd-aaac-6c4ce733f284")
+		)
+		(instances
+			(project "estop_remote_schematic"
+				(path "/5c08b7c6-3fe1-4a20-81ff-6cf06621ce55"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 68.58 33.02 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "133332e0-0c56-46c6-8deb-8083ccd6dde1")
+		(property "Reference" "J1"
+			(at 68.072 26.67 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Power Switch"
+			(at 73.914 24.13 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical"
+			(at 68.58 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4760,7 +4875,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 66.04 29.21 0)
+			(at 68.58 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5096,7 +5211,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "283e4760-990c-4bfd-9ab3-f220e9c68012")
-		(property "Reference" "C2"
+		(property "Reference" "HC12DecouplingCapacitor1"
 			(at 59.69 129.5399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5160,7 +5275,7 @@
 		(instances
 			(project "estop_remote_schematic"
 				(path "/5c08b7c6-3fe1-4a20-81ff-6cf06621ce55"
-					(reference "C2")
+					(reference "HC12DecouplingCapacitor1")
 					(unit 1)
 				)
 			)
@@ -5178,7 +5293,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "37d7ea78-b43a-4c8b-b44a-d56595d30469")
-		(property "Reference" "R1"
+		(property "Reference" "VoltDivResistor1"
 			(at 40.64 36.83 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5240,7 +5355,7 @@
 		(instances
 			(project "estop_remote_schematic"
 				(path "/5c08b7c6-3fe1-4a20-81ff-6cf06621ce55"
-					(reference "R1")
+					(reference "VoltDivResistor1")
 					(unit 1)
 				)
 			)
@@ -5843,7 +5958,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_S2B-XH-A_1x02_P2.50mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 			(at 254 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -5902,8 +6017,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5e67f482-dd66-46f5-a076-ebc35d39f681")
-		(property "Reference" "C1"
-			(at 29.21 28.702 0)
+		(property "Reference" "PowerCapacitor2"
+			(at 17.272 28.448 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5966,7 +6081,7 @@
 		(instances
 			(project "estop_remote_schematic"
 				(path "/5c08b7c6-3fe1-4a20-81ff-6cf06621ce55"
-					(reference "C1")
+					(reference "PowerCapacitor2")
 					(unit 1)
 				)
 			)
@@ -6085,7 +6200,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_S4B-XH-A_1x04_P2.50mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_XH_S4B-XH-A-1_1x04_P2.50mm_Horizontal"
 			(at 69.85 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -6173,7 +6288,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_S2B-XH-A_1x02_P2.50mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 			(at 254 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -6453,7 +6568,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "963c24ee-2e5d-4a1c-874a-5de7395ab488")
-		(property "Reference" "R2"
+		(property "Reference" "VoltDivResistor2"
 			(at 68.58 36.83 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6515,7 +6630,7 @@
 		(instances
 			(project "estop_remote_schematic"
 				(path "/5c08b7c6-3fe1-4a20-81ff-6cf06621ce55"
-					(reference "R2")
+					(reference "VoltDivResistor2")
 					(unit 1)
 				)
 			)
@@ -6791,7 +6906,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D7.5mm_P2.50mm"
 			(at 49.2252 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -7188,7 +7303,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_S2B-XH-A_1x02_P2.50mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 			(at 74.93 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -7349,7 +7464,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D16.0mm_P7.50mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
 			(at 42.2148 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -7431,7 +7546,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "holes:2.54mm-5-holes"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
 			(at 71.12 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -7737,7 +7852,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fce36e14-7bb4-4e24-b8a5-8e2fe837da0b")
-		(property "Reference" "R4"
+		(property "Reference" "I2CPullup2"
 			(at 46.99 186.6899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7801,7 +7916,7 @@
 		(instances
 			(project "estop_remote_schematic"
 				(path "/5c08b7c6-3fe1-4a20-81ff-6cf06621ce55"
-					(reference "R4")
+					(reference "I2CPullup2")
 					(unit 1)
 				)
 			)
