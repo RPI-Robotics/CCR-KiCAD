@@ -1850,26 +1850,6 @@
 		)
 		(uuid "110a440b-535d-4064-a5cb-430bd5ff3569")
 	)
-	(label "EStopESP"
-		(at 138.43 58.42 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "27683c23-4fc3-442e-bf7b-87093f333b4d")
-	)
-	(label "EStopOrin"
-		(at 138.43 55.88 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2be006d7-06f5-4c9a-bc8d-c66214efd6cf")
-	)
 	(label "Relay Signal"
 		(at 24.13 92.71 0)
 		(effects
@@ -1879,6 +1859,26 @@
 			(justify left bottom)
 		)
 		(uuid "40145ac2-4b32-4295-9493-eb81b3484913")
+	)
+	(label "EStopOrin"
+		(at 138.43 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4d2d85d3-7f78-4768-bab9-8108a9e6e322")
+	)
+	(label "EStopESP"
+		(at 138.43 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "67d57175-6729-4223-894e-739cbef2794b")
 	)
 	(label "EStopESP"
 		(at 175.26 99.06 180)
@@ -2042,7 +2042,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 127.762 62.23 90)
 			(hide yes)
 			(show_name no)
@@ -2122,7 +2122,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3_1x03_P5.00mm_Horizontal"
 			(at 20.32 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -2205,7 +2205,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A14-LC-TT_ASM"
+		(property "Footprint" "CustomDIP:A14-LC-TT_ASM"
 			(at 72.39 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -2960,7 +2960,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-4_1x04_P5.00mm_Horizontal"
 			(at 180.34 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -3183,7 +3183,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f4a47d96-6269-4ea2-9a08-b6db346d8126")
-		(property "Reference" "R3"
+		(property "Reference" "R1"
 			(at 132.08 50.7999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3205,7 +3205,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 127.762 52.07 90)
 			(hide yes)
 			(show_name no)
@@ -3247,7 +3247,7 @@
 		(instances
 			(project "estop_relay_gate"
 				(path "/405c09ff-95da-485d-a70b-0c6a7c3e2292"
-					(reference "R3")
+					(reference "R1")
 					(unit 1)
 				)
 			)
