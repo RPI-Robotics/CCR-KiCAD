@@ -1567,6 +1567,12 @@
 		(uuid "527c4f00-7576-4916-b78b-fb092e222ebc")
 	)
 	(junction
+		(at 38.1 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "537d5212-74ea-4793-b8af-bcecde485405")
+	)
+	(junction
 		(at 116.84 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1642,6 +1648,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 97.79) (xy 31.75 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bdb54c6-3ddd-4e36-ad0a-d7b88103939c")
+	)
+	(wire
+		(pts
 			(xy 113.03 55.88) (xy 129.54 55.88)
 		)
 		(stroke
@@ -1649,6 +1665,16 @@
 			(type default)
 		)
 		(uuid "1efe6630-e5dc-44ff-b135-f31d33c60852")
+	)
+	(wire
+		(pts
+			(xy 44.45 97.79) (xy 38.1 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2670b8af-28e9-4481-a4c4-25ab90a137cb")
 	)
 	(wire
 		(pts
@@ -1921,7 +1947,7 @@
 		(uuid "b6c20e90-5d3b-47c0-9a24-c4a427675c0e")
 	)
 	(label "EStopSignal"
-		(at 31.75 97.79 0)
+		(at 44.45 97.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2370,6 +2396,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 38.1 101.6 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "249a1b43-0fcb-45ce-b30e-9de795fc3055")
+		(property "Reference" "R3"
+			(at 40.64 100.3299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10kΩ"
+			(at 40.64 102.8699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 36.322 101.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 38.1 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e9cdfbaf-8068-4169-a7a0-f9ad50f5d32c")
+		)
+		(pin "1"
+			(uuid "d099166a-84de-4314-9fd2-0016cc6bb63d")
+		)
+		(instances
+			(project "estop_relay_gate"
+				(path "/405c09ff-95da-485d-a70b-0c6a7c3e2292"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 163.83 91.44 90)
 		(unit 1)
@@ -2686,6 +2794,84 @@
 			(project "estop_relay_gate"
 				(path "/405c09ff-95da-485d-a70b-0c6a7c3e2292"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 38.1 105.41 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "851ab52f-c451-4ae2-8d98-2a9eaab37c41")
+		(property "Reference" "#PWR010"
+			(at 38.1 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 38.1 110.49 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 38.1 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5b9b0da7-5fe7-4378-83a1-25c7b91c2ada")
+		)
+		(instances
+			(project "estop_relay_gate"
+				(path "/405c09ff-95da-485d-a70b-0c6a7c3e2292"
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
