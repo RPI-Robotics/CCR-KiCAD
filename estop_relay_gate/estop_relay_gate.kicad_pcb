@@ -1320,11 +1320,11 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "27b266fa-80f4-46f9-bb73-5fa71d3b6aa2")
-		(at 109.25 65)
+		(at 109.25 65.55)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor handsolder")
 		(property "Reference" "R3"
-			(at -3.25 3.5 0)
+			(at -3.15 -0.05 0)
 			(layer "F.SilkS")
 			(uuid "f808c626-4848-4779-865e-f7de08057909")
 			(effects
@@ -2456,7 +2456,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor handsolder")
 		(property "Reference" "R4"
-			(at -3 -3.75 0)
+			(at -3.05 -0.05 0)
 			(layer "F.SilkS")
 			(uuid "8808c1b8-626a-4539-afef-ad29c3f16034")
 			(effects
@@ -3172,7 +3172,7 @@
 		)
 	)
 	(gr_text "5V"
-		(at 103.5 104.25 0)
+		(at 103.5 104.15 0)
 		(layer "F.SilkS")
 		(uuid "5235ca34-c4f0-4998-a698-1a02d69c31c2")
 		(effects
@@ -3184,7 +3184,7 @@
 		)
 	)
 	(gr_text "GND"
-		(at 107.75 104.25 0)
+		(at 107.75 104.15 0)
 		(layer "F.SilkS")
 		(uuid "b652a686-275c-4db5-b1ed-9c002447a232")
 		(effects
@@ -3195,8 +3195,8 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "Orin\n"
-		(at 112.75 104.25 0)
+	(gr_text "Button"
+		(at 112.15 104.15 0)
 		(layer "F.SilkS")
 		(uuid "c0aecd97-2fa1-4396-bd52-c7873f7aa1b6")
 		(effects
@@ -3208,7 +3208,7 @@
 		)
 	)
 	(gr_text "ESP\n"
-		(at 118 104.25 0)
+		(at 118 104.15 0)
 		(layer "F.SilkS")
 		(uuid "4b3af12d-773d-4385-981a-eb3a496cbe5c")
 		(effects
@@ -3356,20 +3356,20 @@
 		(uuid "9fa6407a-82f0-49c8-a645-37e96528e270")
 	)
 	(segment
+		(start 110.25 63.75)
+		(end 110.25 65.55)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "GND")
+		(uuid "83a3d001-bc2b-45cc-a41e-e8dfc1a981df")
+	)
+	(segment
 		(start 121 72)
 		(end 119.5 73.5)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "GND")
 		(uuid "9c2d81df-db92-41c8-b883-b771d2a42e2f")
-	)
-	(segment
-		(start 110.25 63.75)
-		(end 110.25 65)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "GND")
-		(uuid "abf14ce2-debd-4c06-b3b1-886b94242820")
 	)
 	(segment
 		(start 119.5 80)
@@ -3551,12 +3551,12 @@
 		(uuid "7321bbea-dbcb-4b30-8e6c-d1e8e1ba819a")
 	)
 	(segment
-		(start 108.25 65)
+		(start 108.25 65.55)
 		(end 108.25 68.5)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "/EStopSignal")
-		(uuid "af3a2358-473a-4ead-85de-f064581c9f59")
+		(uuid "8fb93550-8085-4038-b5e1-9af95d9cbc0a")
 	)
 	(via
 		(at 108.25 69.75)
