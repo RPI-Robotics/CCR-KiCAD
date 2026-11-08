@@ -3266,7 +3266,7 @@
 		(uuid "e52016ce-3519-4099-ae2e-e223bfbab24e")
 	)
 	(gr_text "ouuughhh my relay"
-		(at 125.5 57.5 270)
+		(at 124.5 58 270)
 		(layer "F.SilkS")
 		(uuid "7e531177-796a-4ab4-b80a-878576f60974")
 		(effects
@@ -3602,7 +3602,7 @@
 	(segment
 		(start 112 60.8275)
 		(end 113.5 60.8275)
-		(width 0.2)
+		(width 0.25)
 		(layer "F.Cu")
 		(net "/Relay Signal")
 		(uuid "0574769c-20f0-4faf-9e88-439c5d9fa728")
@@ -3610,7 +3610,7 @@
 	(segment
 		(start 107.05 64.2775)
 		(end 110.5 60.8275)
-		(width 0.2)
+		(width 0.25)
 		(layer "F.Cu")
 		(net "/Relay Signal")
 		(uuid "0a74fade-5aef-4c94-9e0e-2c7d5edfcf78")
@@ -3618,7 +3618,7 @@
 	(segment
 		(start 110.5 60.8275)
 		(end 112 60.8275)
-		(width 0.2)
+		(width 0.25)
 		(layer "F.Cu")
 		(net "/Relay Signal")
 		(uuid "57bce5a3-8c8d-4845-a9c7-bfc0d93a074c")
@@ -3626,7 +3626,7 @@
 	(segment
 		(start 113.5 60.8275)
 		(end 117 57.3275)
-		(width 0.2)
+		(width 0.25)
 		(layer "F.Cu")
 		(net "/Relay Signal")
 		(uuid "67ac7ea0-c8ec-4eac-91ce-fc55e0a9f8b6")
@@ -3634,7 +3634,7 @@
 	(segment
 		(start 107 57.3275)
 		(end 110.5 60.8275)
-		(width 0.2)
+		(width 0.25)
 		(layer "F.Cu")
 		(net "/Relay Signal")
 		(uuid "b6160631-36ab-4a4b-8ece-cf8e1d392ce4")
@@ -3642,7 +3642,7 @@
 	(segment
 		(start 107.05 66)
 		(end 107.05 64.2775)
-		(width 0.2)
+		(width 0.25)
 		(layer "F.Cu")
 		(net "/Relay Signal")
 		(uuid "d8067475-5d1e-4a09-af05-e84081b6f34d")
@@ -3704,20 +3704,28 @@
 		(uuid "f301db0a-cfd3-4956-bad4-dcf13bdd0316")
 	)
 	(segment
-		(start 113 66)
+		(start 109.45 65.5)
 		(end 108.95 66)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "Net-(Q2-G)")
-		(uuid "a1829c50-c676-475d-92bd-1dc23d339a0e")
+		(uuid "99dd4a7c-a6cf-419c-a272-d1d952429bf0")
 	)
 	(segment
 		(start 114 67)
-		(end 113 66)
+		(end 112.5 65.5)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "Net-(Q2-G)")
-		(uuid "f8d3b6b0-1f6f-4c18-9620-7c29e97c24e8")
+		(uuid "b6876dac-23ba-4def-b6ec-f21fb42e1577")
+	)
+	(segment
+		(start 112.5 65.5)
+		(end 109.45 65.5)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(Q2-G)")
+		(uuid "fc5b7c45-5f92-4554-9a2f-4b5d8801fbda")
 	)
 	(zone
 		(net "GND")
