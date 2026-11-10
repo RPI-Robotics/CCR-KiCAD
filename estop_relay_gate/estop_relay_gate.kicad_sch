@@ -2836,6 +2836,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 114.3) (xy 60.96 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa31f4a1-29c2-493a-9819-29586a7c4934")
+	)
+	(wire
+		(pts
 			(xy 57.15 81.28) (xy 44.45 81.28)
 		)
 		(stroke
@@ -2875,7 +2885,7 @@
 		(uuid "4d2d85d3-7f78-4768-bab9-8108a9e6e322")
 	)
 	(label "EStopSignal"
-		(at 60.96 114.3 0)
+		(at 66.04 114.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
