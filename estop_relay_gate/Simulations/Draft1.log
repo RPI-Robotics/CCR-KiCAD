@@ -1,0 +1,6 @@
+LTspice 24.1.9 for Windows
+Circuit: C:\Users\qiuj5\Documents\Robotics\IGVC\CCR-KiCAD\estop_relay_gate\Simulations\Draft1.net
+Start Time: Tue Nov 10 12:44:46 2026
+C:\Users\qiuj5\Documents\Robotics\IGVC\CCR-KiCAD\estop_relay_gate\Simulations\Draft1.net(4): Unknown parameter
+S§ORIN N001 N003 0 N002 ORIN S1
+                            ^^^
