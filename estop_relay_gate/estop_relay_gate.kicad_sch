@@ -2507,6 +2507,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 114.3) (xy 64.77 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e1dd460-220d-456a-9382-45d79d79e172")
+	)
+	(wire
+		(pts
 			(xy 78.74 38.1) (xy 95.25 38.1)
 		)
 		(stroke
@@ -2727,7 +2737,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 110.49) (xy 66.04 110.49)
+			(xy 54.61 110.49) (xy 76.2 110.49)
 		)
 		(stroke
 			(width 0)
@@ -2764,6 +2774,16 @@
 			(type default)
 		)
 		(uuid "85fdafdf-04b3-4fed-a22b-e7c5466e49d3")
+	)
+	(wire
+		(pts
+			(xy 72.39 114.3) (xy 76.2 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8faa101b-67b0-4231-b314-c566e93dab5d")
 	)
 	(wire
 		(pts
@@ -2907,16 +2927,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 114.3) (xy 60.96 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa31f4a1-29c2-493a-9819-29586a7c4934")
-	)
-	(wire
-		(pts
 			(xy 64.77 82.55) (xy 52.07 82.55)
 		)
 		(stroke
@@ -2956,7 +2966,7 @@
 		(uuid "4d2d85d3-7f78-4768-bab9-8108a9e6e322")
 	)
 	(label "EStopSignal"
-		(at 66.04 114.3 0)
+		(at 76.2 114.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2996,7 +3006,7 @@
 		(uuid "781728de-6aa9-4aff-b1e5-5fc4d03eaf1e")
 	)
 	(label "Relay Signal"
-		(at 66.04 110.49 0)
+		(at 76.2 110.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3569,6 +3579,85 @@
 			(project "estop_relay_gate"
 				(path "/405c09ff-95da-485d-a70b-0c6a7c3e2292"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 68.58 114.3 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1d0f106e-a774-4e2e-b14b-6aeeb9eb2b82")
+		(property "Reference" "R7"
+			(at 68.58 119.126 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100Ω"
+			(at 68.58 116.84 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 68.58 112.522 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 68.58 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "1a03ddb9-6cc0-461e-a55b-1b1ca4b5a49c")
+		)
+		(pin "1"
+			(uuid "2767234d-b78a-4a2d-9906-aabf9d011e79")
+		)
+		(instances
+			(project "estop_relay_gate"
+				(path "/405c09ff-95da-485d-a70b-0c6a7c3e2292"
+					(reference "R7")
 					(unit 1)
 				)
 			)
