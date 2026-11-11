@@ -4651,7 +4651,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A14-LC-TT_ASM"
+		(property "Footprint" "CCR-IGVC-EStopRelay:A14-LC-TT_ASM"
 			(at 38.1 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -4850,7 +4850,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CustomDIP:SOT-23-PJT-pMOS"
+		(property "Footprint" "CCR-IGVC-EStopRelay:PJA3433_R1_00001"
 			(at 55.88 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -5128,7 +5128,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CustomDIP:SOT-23-PJT-nMOS"
+		(property "Footprint" "CCR-IGVC-EStopRelay:PJA3432_R1_00001"
 			(at 132.08 85.09 0)
 			(hide yes)
 			(show_name no)
