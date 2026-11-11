@@ -16,8 +16,20 @@ The board mounts with 4 M2 screw holes on the corners. It is powered by 5V from 
 
 
 
+**Rough breakdown:**
+
+- Circuit takes two active low signals as input which are fed into an AND logic gate.
+
+- AND gate controls an nMOS MOSFET which powers two Normally Open solid state relays.
+
+- Upon the loss of one emergency stop signal, solid state relays shut off and indicator LED's switch.
+
 
 
 ## PCB Layout
 
 ---
+
+
+
+PCB dimensions are 31mm x 56.5mm.
