@@ -5,8 +5,8 @@
 	(uuid "405c09ff-95da-485d-a70b-0c6a7c3e2292")
 	(paper "A5")
 	(title_block
-		(title "estop_relay_gate")
-		(company "RPI Robotics")
+		(title "Emergency Stop Relay Gate")
+		(company "RPI Robotics Club")
 	)
 	(lib_symbols
 		(symbol "2026-10-31_20-25-13:A14-LC-TT"
