@@ -4016,7 +4016,6 @@
 			)
 		)
 		(property ki_fp_filters "SOT?23*")
-		(path "/71b01c6f-f85d-4479-a972-530ced908459")
 		(sheetname "/")
 		(sheetfile "estop_relay_gate.kicad_sch")
 		(units
@@ -5306,6 +5305,14 @@
 		(net "/Relay Signal")
 		(uuid "f0dec2a7-c780-4573-98cd-97bf2e38b77e")
 	)
+	(segment
+		(start 116 67)
+		(end 116 69)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/EStopSignal")
+		(uuid "b00f75b0-b991-4a01-86c8-759256495e31")
+	)
 	(via
 		(at 116 69)
 		(size 0.6)
@@ -5371,6 +5378,14 @@
 		(uuid "0cec5808-4453-488b-b379-1d00e0da5539")
 	)
 	(segment
+		(start 116 65)
+		(end 114 67)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(Q2-G)")
+		(uuid "0ae06721-1faa-4e0c-8481-9cf0fa35d1ff")
+	)
+	(segment
 		(start 110.2875 67)
 		(end 114 67)
 		(width 0.2)
@@ -5385,6 +5400,14 @@
 		(layer "F.Cu")
 		(net "Net-(Q2-G)")
 		(uuid "b15e2ef6-577b-4305-904f-1bc0cd456155")
+	)
+	(segment
+		(start 116 64.5)
+		(end 116 65)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(Q2-G)")
+		(uuid "b96525de-9ef8-41ad-965a-93221f2e016f")
 	)
 	(segment
 		(start 121.48 61)
