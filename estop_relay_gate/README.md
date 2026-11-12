@@ -12,7 +12,7 @@ The board mounts with 4 M2 screw holes on the corners. It is powered by 5V from 
 
 ## Schematic
 
-![schematic.png](docs/schematic.png)
+![schematic.png](docs/images/schematic.png)
 
 **Rough breakdown:**
 
@@ -27,7 +27,7 @@ The board mounts with 4 M2 screw holes on the corners. It is powered by 5V from 
 ## PCB Layout
 
 
-![pcb.png](docs/pcb.png)
+![pcb.png](docs/images/pcb.png)
 
 PCB dimensions are 31mm x 56.5mm.
 
