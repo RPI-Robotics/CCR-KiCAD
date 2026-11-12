@@ -1,7 +1,5 @@
 # Emergency Stop Relay Gate PCB
 
----
-
 A custom board to take in two active low emergency stop signals and shut off relays instantaneously upon the loss of one emergency stop signals. I'm designing it in KiCAD to remove any risk of vehicle vibrations loosening solder connections.
 
 
@@ -14,9 +12,7 @@ The board mounts with 4 M2 screw holes on the corners. It is powered by 5V from 
 
 ## Schematic
 
----
-
-![schematic.png](C:\Users\qiuj5\Documents\Robotics\IGVC\CCR-KiCAD\estop_relay_gate\docs\schematic.png)
+![schematic.png](docs/schematic.png)
 
 **Rough breakdown:**
 
@@ -30,15 +26,13 @@ The board mounts with 4 M2 screw holes on the corners. It is powered by 5V from 
 
 ## PCB Layout
 
----
 
-![pcb.png](C:\Users\qiuj5\Documents\Robotics\IGVC\CCR-KiCAD\estop_relay_gate\docs\pcb.png)
+![pcb.png](docs/pcb.png)
 
 PCB dimensions are 31mm x 56.5mm.
 
 ## ToDo List
 
----
 
 - [x] Design PCB layout.
 
@@ -48,6 +42,5 @@ PCB dimensions are 31mm x 56.5mm.
 
 ## Credits
 
----
 
 Original design by James Qiu for RPI Robotics Club, 2026. 
