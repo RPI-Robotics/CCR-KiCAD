@@ -3008,10 +3008,9 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+		(property "Datasheet" "https://www.panjit.com.tw/upload/datasheet/PJA3432.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
-			(hide yes)
 			(uuid "e23bc671-e146-4d37-bc8d-e307ee854c3a")
 			(effects
 				(font
@@ -3978,7 +3977,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+		(property "Datasheet" "https://www.panjit.com.tw/upload/datasheet/PJA3433.pdf"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
