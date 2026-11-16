@@ -3613,10 +3613,6 @@
 		(uuid "024ce805-1a6f-4d74-88d6-a6a32c363cca")
 	)
 	(no_connect
-		(at 231.14 140.97)
-		(uuid "037317bc-b7d8-4fa0-9078-601b68f5a7ba")
-	)
-	(no_connect
 		(at 231.14 148.59)
 		(uuid "08b07954-8c01-4574-b04a-356c34d02882")
 	)
@@ -3711,6 +3707,10 @@
 	(no_connect
 		(at 231.14 146.05)
 		(uuid "e4c7f257-ec1b-4427-89bf-b7f390c6adcf")
+	)
+	(no_connect
+		(at 231.14 125.73)
+		(uuid "fd1213df-8688-4cf0-b0b4-20cf4efe0888")
 	)
 	(wire
 		(pts
@@ -4252,16 +4252,6 @@
 		)
 		(uuid "36318c67-2365-4f32-9102-76949d2cf691")
 	)
-	(label "BatteryVoltageDivider"
-		(at 231.14 125.73 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "4fc8289b-3024-496f-8901-32c7e1ddf897")
-	)
 	(label "HC12_TX"
 		(at 266.7 115.57 0)
 		(effects
@@ -4351,6 +4341,16 @@
 			(justify right bottom)
 		)
 		(uuid "bdac8178-073f-4e99-898a-e945b2fb7adb")
+	)
+	(label "BatteryVoltageDivider"
+		(at 231.14 140.97 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cb8c4bf6-2881-41c8-aacd-db82ba064d85")
 	)
 	(label "HC12_SET"
 		(at 266.7 148.59 0)

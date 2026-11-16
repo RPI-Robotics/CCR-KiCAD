@@ -388,13 +388,13 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "06ed9da1-cfbf-4297-ba9c-e5773e1247cb")
-		(at 105.5 64 -90)
+		(at 106 48.75 -90)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor handsolder")
 		(property "Reference" "R3"
 			(at 0 2 90)
 			(layer "F.SilkS")
-			(uuid "59d892df-b306-4757-8c53-0ed343a1a174")
+			(uuid "c5519532-551b-4bc6-965b-bd16f444493e")
 			(effects
 				(font
 					(size 1 1)
@@ -405,7 +405,7 @@
 		(property "Value" "47kΩ"
 			(at 0 1.65 90)
 			(layer "F.Fab")
-			(uuid "29a1351e-b2b1-4a78-8747-b01a9c555add")
+			(uuid "69e54fd4-6287-4b1d-8f59-1aa8b7767211")
 			(effects
 				(font
 					(size 1 1)
@@ -417,7 +417,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2f790202-39d9-4c87-bd87-650a643a6826")
+			(uuid "93918939-a815-46eb-8dd6-1faa0f0e6f5d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -428,7 +428,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "73147263-d441-4c8f-a052-646de57e7402")
+			(uuid "af2e59ab-5374-40d7-b5b3-7f01caa97d32")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1032,9 +1032,9 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "/BatteryVoltageDivider")
+			(net "unconnected-(J2-Pin_9-Pad9)")
 			(pinfunction "Pin_9_9")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "1abacf58-2518-45d2-91d1-92447308fe23")
 		)
 		(pad "10" thru_hole circle
@@ -1098,9 +1098,9 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "unconnected-(J2-Pin_15-Pad15)")
+			(net "/BatteryVoltageDivider")
 			(pinfunction "Pin_15_15")
-			(pintype "passive+no_connect")
+			(pintype "passive")
 			(uuid "e7d79877-a9d4-4c68-9ac5-37c32ddd36e1")
 		)
 		(pad "16" thru_hole circle
@@ -6372,13 +6372,13 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "b6c7d7a3-c13b-46e6-b02c-6a24b7d9c837")
-		(at 110.5 68.3625 -90)
+		(at 111 53.1125 -90)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor handsolder")
 		(property "Reference" "C5"
 			(at -0.7625 1.55 90)
 			(layer "F.SilkS")
-			(uuid "2e95fe3d-63e7-4f56-b5aa-e8426d3d5e8e")
+			(uuid "0fd20fe8-2feb-4622-9dd4-67e53fb3e1d4")
 			(effects
 				(font
 					(size 1 1)
@@ -6389,7 +6389,7 @@
 		(property "Value" "0.1uF"
 			(at 0 1.43 90)
 			(layer "F.Fab")
-			(uuid "355ed612-b1c3-4c03-af75-6059af1f7e0a")
+			(uuid "c6e48b1c-efa9-49c0-8cde-4c6dfe7eb2ff")
 			(effects
 				(font
 					(size 1 1)
@@ -6401,7 +6401,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "dbb7710c-e3ee-4b5d-a74d-362489e6c3e8")
+			(uuid "1b08647f-acc4-49d1-9704-3e588748bfce")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6412,7 +6412,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8b1d60b4-e8bc-4469-865b-2970d12d12cb")
+			(uuid "b4e04b2f-f706-4b44-b2ab-36fbc78ffbda")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8319,13 +8319,13 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "cc82e0c9-fb2b-4405-9984-ef7a89479ce2")
-		(at 105.5 68.25 -90)
+		(at 106 53 -90)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor handsolder")
 		(property "Reference" "R4"
 			(at -0.06 2 90)
 			(layer "F.SilkS")
-			(uuid "7f6657af-0792-4b0a-a8c7-add8e0578a87")
+			(uuid "b5a437d1-e3ce-4de1-8778-425435330c13")
 			(effects
 				(font
 					(size 1 1)
@@ -8336,7 +8336,7 @@
 		(property "Value" "10kΩ"
 			(at 0 1.65 90)
 			(layer "F.Fab")
-			(uuid "18fec6e3-0ea0-481f-9b82-f7b86403af3c")
+			(uuid "13bf8869-5887-4c7c-a74c-060fe45dd1c0")
 			(effects
 				(font
 					(size 1 1)
@@ -8348,7 +8348,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c1ca7dfe-60c7-4fbd-ac98-15c1d0aee2ca")
+			(uuid "2ca21aab-1980-422e-ac4d-093bc292e140")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8359,7 +8359,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a1cb0437-f1c0-4eb3-b730-35af600c1521")
+			(uuid "3f082696-da1b-4e6b-b552-e60ce81d71c1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8869,20 +8869,20 @@
 		(uuid "e828bdf0-074c-42be-9ffe-ef8d7f0591c8")
 	)
 	(segment
-		(start 105.5 69.25)
-		(end 109.25 69.25)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "GND")
-		(uuid "259ebcdb-3467-4ffd-9170-1d2dbcf4ffc3")
-	)
-	(segment
 		(start 109.9875 35.15)
 		(end 110 35.1375)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "GND")
 		(uuid "3cbe0252-737c-4890-a7ca-165cc8491758")
+	)
+	(segment
+		(start 109.75 54)
+		(end 106 54)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "GND")
+		(uuid "3cd57d20-e50f-4f4c-a35b-04d0b1d07d03")
 	)
 	(segment
 		(start 73.523894 67.5)
@@ -8893,20 +8893,20 @@
 		(uuid "51921591-a3b9-4c3f-abc3-0c0736f0354a")
 	)
 	(segment
-		(start 109.275 69.225)
-		(end 110.5 69.225)
+		(start 110.975 54)
+		(end 111 53.975)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "GND")
-		(uuid "80e5098e-9da3-48a2-a91c-c80b86905d70")
+		(uuid "5a68e663-8c2d-47d9-84b5-8897d8286590")
 	)
 	(segment
-		(start 109.25 69.25)
-		(end 109.275 69.225)
+		(start 109.75 54)
+		(end 110.975 54)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "GND")
-		(uuid "8def894d-bb2e-4c62-a2ed-c8f423d3cd7f")
+		(uuid "974d634f-69f8-4d2c-b5ea-c91b4d2c30cc")
 	)
 	(segment
 		(start 108.5 35.15)
@@ -8933,7 +8933,7 @@
 		(uuid "41b84573-5822-4ffd-9ad0-ee866298163c")
 	)
 	(via
-		(at 109.275 69.225)
+		(at 109.75 54)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -8941,28 +8941,12 @@
 		(uuid "76552e92-3abc-46b6-a58b-3bb480c2a41a")
 	)
 	(segment
-		(start 105.5 62.5)
-		(end 110 58)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "+6V")
-		(uuid "141eaba0-088c-4aa8-abe2-d2124166eee2")
-	)
-	(segment
-		(start 105.5 63)
-		(end 105.5 62.5)
-		(width 0.75)
-		(layer "F.Cu")
-		(net "+6V")
-		(uuid "142d0a76-7052-4c10-9e3a-25ff111c582c")
-	)
-	(segment
-		(start 110 58)
+		(start 110 43.25)
 		(end 110 36.8625)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "+6V")
-		(uuid "3cd2435c-df44-41db-85b1-03696e65d0bd")
+		(uuid "26a4fccb-b50a-47a0-adf3-20e9cfea9cd2")
 	)
 	(segment
 		(start 87 97.5)
@@ -9005,6 +8989,14 @@
 		(uuid "77dc3401-bea3-4d95-a38e-d88338ef71fd")
 	)
 	(segment
+		(start 106 47.25)
+		(end 110 43.25)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "+6V")
+		(uuid "90c5a1f4-f92d-4ba6-8de6-b10e0c8a3721")
+	)
+	(segment
 		(start 111 37)
 		(end 110.1375 37)
 		(width 0.75)
@@ -9037,6 +9029,14 @@
 		(uuid "c2a77945-851a-4db9-91d7-36e0613bc7d4")
 	)
 	(segment
+		(start 106 47.75)
+		(end 106 47.25)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "+6V")
+		(uuid "e21a6a7a-6c9f-4478-9734-0f98fe97fb69")
+	)
+	(segment
 		(start 111.02 36.98)
 		(end 111 37)
 		(width 0.75)
@@ -9053,44 +9053,52 @@
 		(uuid "e7fdaf4c-ee67-4377-b5fb-bcdc72d11f05")
 	)
 	(segment
-		(start 110.5 67.5)
-		(end 113.46 67.5)
+		(start 106 49.75)
+		(end 106 52)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "/BatteryVoltageDivider")
-		(uuid "5c0252c1-49ba-420c-bad4-dca5dcf69a86")
+		(uuid "0236e0c4-144d-4cef-996e-06a3e1e997f2")
 	)
 	(segment
-		(start 105.5 65)
-		(end 105.5 67.25)
+		(start 111.5 52.25)
+		(end 111.53 52.22)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "/BatteryVoltageDivider")
-		(uuid "66bd184f-dd60-4dfb-9648-c1310e29bfa7")
+		(uuid "35a5e6aa-e043-41fd-bff2-bbdac38a3721")
 	)
 	(segment
-		(start 111.04 65)
-		(end 113.5 67.46)
+		(start 106 52)
+		(end 110.75 52)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "/BatteryVoltageDivider")
-		(uuid "70c92627-60e2-4a09-9284-acc386d54321")
+		(uuid "3787bcbe-0dcd-4ab9-89c3-db0e4d0c3304")
 	)
 	(segment
-		(start 105.5 65)
-		(end 111.04 65)
+		(start 111.53 52.22)
+		(end 113.5 52.22)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "/BatteryVoltageDivider")
-		(uuid "a0548afa-da54-4978-8251-179271902ce6")
+		(uuid "a78ed31c-04ca-4a45-bfa4-33f7560fe96e")
 	)
 	(segment
-		(start 113.46 67.5)
-		(end 113.5 67.46)
+		(start 110.75 52)
+		(end 111 52.25)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "/BatteryVoltageDivider")
-		(uuid "eea1d0ee-0f2c-48ee-a842-8ad78e19a370")
+		(uuid "bd9a2fe8-7d99-4dfa-a393-4c744bf220af")
+	)
+	(segment
+		(start 111 52.25)
+		(end 111.5 52.25)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/BatteryVoltageDivider")
+		(uuid "dd5571c3-3d60-42c8-93d4-718311d353e7")
 	)
 	(segment
 		(start 110.5 78.08)
@@ -9499,6 +9507,14 @@
 		(layer "B.Cu")
 		(net "/HC12_SET")
 		(uuid "e397de5c-7bef-45fd-8557-d7396486ee40")
+	)
+	(segment
+		(start 113.46 67.5)
+		(end 113.5 67.46)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "unconnected-(J2-Pin_9-Pad9)")
+		(uuid "eea1d0ee-0f2c-48ee-a842-8ad78e19a370")
 	)
 	(zone
 		(net "GND")
