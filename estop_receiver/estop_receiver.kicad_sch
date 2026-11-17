@@ -3401,16 +3401,6 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 144.78) (xy 58.42 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c14c9fb-936b-425d-b4b2-fe1e24892ded")
-	)
-	(wire
-		(pts
 			(xy 60.96 58.42) (xy 93.98 58.42)
 		)
 		(stroke
@@ -3661,16 +3651,6 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 121.92) (xy 53.34 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba7e12b4-e3ff-43a3-8697-e1f3f7295beb")
-	)
-	(wire
-		(pts
 			(xy 63.5 43.18) (xy 77.47 43.18)
 		)
 		(stroke
@@ -3810,7 +3790,7 @@
 		(uuid "39e3f12b-df0e-4c05-8c1d-8ab8b76e2eb1")
 	)
 	(label "DisconnectLED"
-		(at 58.42 146.05 180)
+		(at 58.42 144.78 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3850,7 +3830,7 @@
 		(uuid "72b377da-16b7-4a7f-9319-b4b10fad82d6")
 	)
 	(label "EStopLED"
-		(at 53.34 123.19 180)
+		(at 53.34 121.92 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3891,7 +3871,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CCR-IGVC-EStopReceiver:PJA3432_R1_00001"
 			(at 63.5 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -4007,7 +3987,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CCR-IGVC-EStopReceiver:PJA3432_R1_00001"
 			(at 63.5 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -4281,7 +4261,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 80.01 135.128 90)
 			(hide yes)
 			(show_name no)
@@ -4662,7 +4642,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P2.50mm"
 			(at 64.4652 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -5120,7 +5100,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CCR-IGVC-EStopReceiver:PJA3432_R1_00001"
 			(at 63.5 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -5236,7 +5216,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 88.9 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -5565,7 +5545,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 78.4352 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -5805,7 +5785,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
 			(at 99.06 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -5894,7 +5874,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 80.01 179.578 90)
 			(hide yes)
 			(show_name no)
@@ -6053,7 +6033,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 88.9 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -6223,7 +6203,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 88.9 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -6393,7 +6373,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 80.01 157.988 90)
 			(hide yes)
 			(show_name no)
@@ -6631,7 +6611,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 80.01 112.268 90)
 			(hide yes)
 			(show_name no)
@@ -6711,7 +6691,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 88.9 156.21 0)
 			(hide yes)
 			(show_name no)

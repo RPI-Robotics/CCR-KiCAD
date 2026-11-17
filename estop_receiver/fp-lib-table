@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "CCR-IGVC-EStopReceiver") (type "KiCad") (uri "${KIPRJMOD}/CCR-IGVC-EStopReceiver.pretty") (options "") (descr ""))
+)
