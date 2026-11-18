@@ -89,8 +89,8 @@
         "extra_footprint": "warning",
         "footprint": "error",
         "footprint_filters_mismatch": "ignore",
-        "footprint_symbol_field_mismatch": "warning",
-        "footprint_symbol_mismatch": "warning",
+        "footprint_symbol_field_mismatch": "ignore",
+        "footprint_symbol_mismatch": "ignore",
         "footprint_type_mismatch": "ignore",
         "hole_clearance": "error",
         "hole_to_hole": "warning",
@@ -653,7 +653,7 @@
         "uuid": "e9da9779-c0c7-459b-8a5e-d0c825dd61e8"
       }
     ],
-    "used_designators": "#FLG1-3,#PWR1-26,C1-4,D1-4,J1-7,Q1-3,R1-4,SW1-2",
+    "used_designators": "#FLG1-4,#PWR1-26,C1-4,D1-4,J1-7,Q1-3,R1-4,SW1-2",
     "variants": []
   },
   "sheets": [

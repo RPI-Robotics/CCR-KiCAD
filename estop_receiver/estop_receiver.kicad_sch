@@ -4023,6 +4023,12 @@
 		(color 0 0 0 0)
 		(uuid "ca4193dc-4c18-4928-b5ed-62374d5a5fcb")
 	)
+	(junction
+		(at 116.84 181.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "da027978-64aa-4a14-976b-0926a21a4903")
+	)
 	(no_connect
 		(at 157.48 179.07)
 		(uuid "04d91dab-7568-4b35-b827-b3365cfe487f")
@@ -4321,7 +4327,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 146.05) (xy 251.46 146.05)
+			(xy 245.11 146.05) (xy 260.35 146.05)
 		)
 		(stroke
 			(width 0)
@@ -4489,6 +4495,16 @@
 		)
 		(uuid "7b3ba810-496c-4d4a-bf7a-273ebe576106")
 	)
+	(wire
+		(pts
+			(xy 116.84 181.61) (xy 121.92 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "848ae3c6-9481-4d30-afa9-47c5b00eee59")
+	)
 	(polyline
 		(pts
 			(xy 177.165 12.065) (xy 177.165 57.785)
@@ -4541,7 +4557,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 181.61) (xy 121.92 181.61)
+			(xy 113.03 181.61) (xy 116.84 181.61)
 		)
 		(stroke
 			(width 0)
@@ -4711,7 +4727,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 148.59) (xy 251.46 148.59)
+			(xy 245.11 148.59) (xy 260.35 148.59)
 		)
 		(stroke
 			(width 0)
@@ -4819,6 +4835,16 @@
 		)
 		(uuid "fe8f4131-2483-48d3-844f-a0c858be4c37")
 	)
+	(label "GND_LED"
+		(at 260.35 148.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "00d1dbe6-5d45-469d-9c73-29869c1761bd")
+	)
 	(label "ESPConnectLED"
 		(at 121.92 171.45 180)
 		(effects
@@ -4849,6 +4875,16 @@
 		)
 		(uuid "06737b3e-bfae-4a89-920b-3ed4e15a29fd")
 	)
+	(label "5V_LED"
+		(at 30.48 187.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "18757225-fb4e-4175-9c98-e3ddea77bd7f")
+	)
 	(label "HC12_SET"
 		(at 44.45 45.72 180)
 		(effects
@@ -4858,6 +4894,26 @@
 			(justify right bottom)
 		)
 		(uuid "19845c32-2650-44f8-ac8f-eda32515eb79")
+	)
+	(label "5V_LED"
+		(at 29.21 166.37 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "199d222f-5397-4fb8-8b4d-7795d08757f1")
+	)
+	(label "5V_LED"
+		(at 29.21 143.51 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "287967af-45d8-47c1-8fce-ee2041a76a2d")
 	)
 	(label "DisconnectLED"
 		(at 260.35 153.67 0)
@@ -4899,6 +4955,16 @@
 		)
 		(uuid "44fd445f-78e7-46bc-88c5-29492bf23b5a")
 	)
+	(label "5V_LED"
+		(at 260.35 146.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "58ef2362-ecdb-4c46-b433-2b1e48d91106")
+	)
 	(label "HC12_RX"
 		(at 121.92 153.67 180)
 		(effects
@@ -4908,6 +4974,16 @@
 			(justify right bottom)
 		)
 		(uuid "5c9bcab8-a13b-4b99-be4c-43d69c2073fc")
+	)
+	(label "GND_LED"
+		(at 74.93 143.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6463b471-dfb4-4834-b831-7fb2287a5529")
 	)
 	(label "Reset"
 		(at 44.45 85.09 180)
@@ -4948,6 +5024,26 @@
 			(justify right bottom)
 		)
 		(uuid "95a3d9e2-7096-45ac-a25f-4b1e8950f419")
+	)
+	(label "GND_LED"
+		(at 74.93 166.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9983d8b5-1077-4011-a9f3-887009e50133")
+	)
+	(label "5V_LED"
+		(at 29.21 120.65 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9a4a4fb0-fd4c-4001-969f-a6cfb995e0a2")
 	)
 	(label "HC12_TX"
 		(at 121.92 151.13 180)
@@ -4998,6 +5094,26 @@
 			(justify left bottom)
 		)
 		(uuid "cd562af6-9022-446a-8796-7050a60a5342")
+	)
+	(label "GND_LED"
+		(at 74.93 187.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ce746ded-0c1f-4c04-8ec2-9dc5f0af691d")
+	)
+	(label "GND_LED"
+		(at 74.93 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d28d3af0-b18e-41f9-be13-cc3c877108db")
 	)
 	(label "ESPConnectLED"
 		(at 212.09 156.21 0)
@@ -5351,85 +5467,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 29.21 143.51 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "13eda67b-7292-41a4-8a13-11a64417c192")
-		(property "Reference" "#PWR010"
-			(at 33.02 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 25.4 143.5099 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 29.21 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 29.21 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 29.21 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e61b5db3-c215-48d7-85e5-d5de745f56b1")
-		)
-		(instances
-			(project "estop_receiver"
-				(path "/e9da9779-c0c7-459b-8a5e-d0c825dd61e8"
-					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 35.56 38.1 270)
 		(unit 1)
@@ -5730,85 +5767,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 30.48 187.96 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "374d2fb2-de4b-4afe-857a-84eab21d9fec")
-		(property "Reference" "#PWR012"
-			(at 34.29 187.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 26.67 187.9599 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 30.48 187.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 30.48 187.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 30.48 187.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "86488a37-e3a3-45db-87e3-319df6f3acf5")
-		)
-		(instances
-			(project "estop_receiver"
-				(path "/e9da9779-c0c7-459b-8a5e-d0c825dd61e8"
-					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 116.84 184.15 180)
 		(unit 1)
@@ -5959,85 +5917,6 @@
 			(project "estop_receiver"
 				(path "/e9da9779-c0c7-459b-8a5e-d0c825dd61e8"
 					(reference "#FLG03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 74.93 143.51 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "40e82f12-c7c5-40a5-b8bc-a5245130257c")
-		(property "Reference" "#PWR014"
-			(at 81.28 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 78.74 143.5099 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 74.93 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 74.93 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 74.93 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b73ef45a-fae4-422b-9c61-8bf5569c5d3d")
-		)
-		(instances
-			(project "estop_receiver"
-				(path "/e9da9779-c0c7-459b-8a5e-d0c825dd61e8"
-					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -6524,6 +6403,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 116.84 181.61 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "687aaf25-3cb9-49dd-b66b-5037ef8db3e7")
+		(property "Reference" "#FLG04"
+			(at 116.84 179.705 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 116.84 176.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 116.84 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9f06aa23-0027-4ffe-9b9d-9b3308eed7c4")
+		)
+		(instances
+			(project "estop_receiver"
+				(path "/e9da9779-c0c7-459b-8a5e-d0c825dd61e8"
+					(reference "#FLG04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 157.48 184.15 90)
 		(unit 1)
@@ -6597,85 +6554,6 @@
 			(project "estop_receiver"
 				(path "/e9da9779-c0c7-459b-8a5e-d0c825dd61e8"
 					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 74.93 187.96 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6b546e92-66c7-41d3-8355-349118027e76")
-		(property "Reference" "#PWR016"
-			(at 81.28 187.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 78.74 187.9599 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 74.93 187.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 74.93 187.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 74.93 187.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9b461031-0405-43ef-bb6c-e58c0207a390")
-		)
-		(instances
-			(project "estop_receiver"
-				(path "/e9da9779-c0c7-459b-8a5e-d0c825dd61e8"
-					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -6758,85 +6636,6 @@
 			(project "estop_receiver"
 				(path "/e9da9779-c0c7-459b-8a5e-d0c825dd61e8"
 					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 74.93 120.65 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7142c2a7-5657-4ccd-8222-8e6d9d3006a5")
-		(property "Reference" "#PWR013"
-			(at 81.28 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 78.74 120.6499 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 74.93 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 74.93 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 74.93 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "391ecb21-fd66-4b39-8ee8-d0445347cb4f")
-		)
-		(instances
-			(project "estop_receiver"
-				(path "/e9da9779-c0c7-459b-8a5e-d0c825dd61e8"
-					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -7512,164 +7311,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 29.21 166.37 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "98f224bf-61a8-41f1-8e07-4be0d8afbf11")
-		(property "Reference" "#PWR011"
-			(at 33.02 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 25.4 166.3699 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 29.21 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 29.21 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 29.21 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f4830a61-96d2-4432-92af-0b68e4b17cda")
-		)
-		(instances
-			(project "estop_receiver"
-				(path "/e9da9779-c0c7-459b-8a5e-d0c825dd61e8"
-					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 74.93 166.37 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9925b782-ce24-440b-a16d-96630cc0aa9c")
-		(property "Reference" "#PWR015"
-			(at 81.28 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 78.74 166.3699 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 74.93 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 74.93 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 74.93 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "85bd7957-5979-46d7-9299-617fb4340125")
-		)
-		(instances
-			(project "estop_receiver"
-				(path "/e9da9779-c0c7-459b-8a5e-d0c825dd61e8"
-					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 60.96 34.29 0)
 		(unit 1)
@@ -7825,85 +7466,6 @@
 			(project "estop_receiver"
 				(path "/e9da9779-c0c7-459b-8a5e-d0c825dd61e8"
 					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 29.21 120.65 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a38d89f5-7e69-4c13-ae53-ff2efa974b61")
-		(property "Reference" "#PWR03"
-			(at 33.02 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 25.4 120.6499 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 29.21 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 29.21 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 29.21 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f84d7e61-7b35-4db4-8dac-19b3eff720b0")
-		)
-		(instances
-			(project "estop_receiver"
-				(path "/e9da9779-c0c7-459b-8a5e-d0c825dd61e8"
-					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -8829,85 +8391,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 251.46 148.59 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d6e84632-f730-48d0-bff4-aca92c7610c0")
-		(property "Reference" "#PWR020"
-			(at 257.81 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 255.27 148.5899 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 251.46 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 251.46 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 251.46 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b2a6cd7b-aba1-40d3-8801-79ec0446fc02")
-		)
-		(instances
-			(project "estop_receiver"
-				(path "/e9da9779-c0c7-459b-8a5e-d0c825dd61e8"
-					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x05")
 		(at 191.77 151.13 180)
 		(unit 1)
@@ -9229,85 +8712,6 @@
 			(project "estop_receiver"
 				(path "/e9da9779-c0c7-459b-8a5e-d0c825dd61e8"
 					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 251.46 146.05 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f163b340-9471-4b2b-a752-ebe00ff4b50d")
-		(property "Reference" "#PWR019"
-			(at 247.65 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 255.27 146.0499 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 251.46 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 251.46 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 251.46 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "138bbc97-861d-403b-acff-f1fd91fe2df6")
-		)
-		(instances
-			(project "estop_receiver"
-				(path "/e9da9779-c0c7-459b-8a5e-d0c825dd61e8"
-					(reference "#PWR019")
 					(unit 1)
 				)
 			)
