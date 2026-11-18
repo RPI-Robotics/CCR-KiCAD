@@ -3470,7 +3470,7 @@
 	)
 	(text "ESP32 Pins"
 		(exclude_from_sim no)
-		(at 141.732 108.458 0)
+		(at 136.398 109.22 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -3610,7 +3610,7 @@
 	)
 	(text "LED Board Connectors\n"
 		(exclude_from_sim no)
-		(at 226.822 127.508 0)
+		(at 226.314 134.874 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -4134,16 +4134,6 @@
 		)
 		(uuid "57028479-eb23-40e3-8f87-e065ace9eecd")
 	)
-	(polyline
-		(pts
-			(xy 177.165 97.155) (xy 285.115 97.155)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(uuid "5847d897-3390-43d0-931b-dacb1d03a504")
-	)
 	(wire
 		(pts
 			(xy 29.21 120.65) (xy 30.48 120.65)
@@ -4453,6 +4443,16 @@
 			(type default)
 		)
 		(uuid "e526fff3-5f52-49ea-bb22-96940babcb51")
+	)
+	(polyline
+		(pts
+			(xy 177.165 122.555) (xy 285.75 122.555)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "e5aac2dd-cf65-428c-9010-72eb5d226119")
 	)
 	(wire
 		(pts
@@ -4872,7 +4872,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 52.07 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -6221,7 +6221,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 69.85 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -7574,7 +7574,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical"
 			(at 240.03 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -8059,7 +8059,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical"
 			(at 191.77 151.13 0)
 			(hide yes)
 			(show_name no)
