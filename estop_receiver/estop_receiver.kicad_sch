@@ -4524,7 +4524,7 @@
 		)
 		(uuid "fe8f4131-2483-48d3-844f-a0c858be4c37")
 	)
-	(label "ConnectLED"
+	(label "ESPConnectLED"
 		(at 121.92 171.45 180)
 		(effects
 			(font
@@ -4554,16 +4554,6 @@
 		)
 		(uuid "06737b3e-bfae-4a89-920b-3ed4e15a29fd")
 	)
-	(label "EStopLED"
-		(at 212.09 151.13 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "178b9be0-a804-47db-b2b6-33733d3ea10b")
-	)
 	(label "HC12_SET"
 		(at 44.45 45.72 180)
 		(effects
@@ -4584,7 +4574,7 @@
 		)
 		(uuid "2e6735ca-99d4-4152-94fe-77fd09a88207")
 	)
-	(label "EStopLED"
+	(label "ESPEStopLED"
 		(at 121.92 166.37 180)
 		(effects
 			(font
@@ -4644,7 +4634,7 @@
 		)
 		(uuid "7022bb34-e86a-4f7c-bf80-bd459f8626d7")
 	)
-	(label "DisconnectLED"
+	(label "ESPDisconnectLED"
 		(at 121.92 168.91 180)
 		(effects
 			(font
@@ -4653,6 +4643,16 @@
 			(justify right bottom)
 		)
 		(uuid "72b377da-16b7-4a7f-9319-b4b10fad82d6")
+	)
+	(label "ESPEStopLED"
+		(at 212.09 151.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "79de3cf2-cdc7-4294-8bcc-2f7cf72d6a30")
 	)
 	(label "Reset"
 		(at 121.92 135.89 180)
@@ -4674,7 +4674,7 @@
 		)
 		(uuid "9e2614ed-f31e-4ca2-a8ed-12f84b9779cb")
 	)
-	(label "DisconnectLED"
+	(label "ESPDisconnectLED"
 		(at 212.09 153.67 0)
 		(effects
 			(font
@@ -4682,7 +4682,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "a6b1d3b8-80fb-475f-8f0c-720823221e5a")
+		(uuid "a03b6a29-ebd7-40ec-8502-5d75a1296c24")
 	)
 	(label "EStopLED"
 		(at 260.35 151.13 0)
@@ -4694,6 +4694,16 @@
 		)
 		(uuid "cd562af6-9022-446a-8796-7050a60a5342")
 	)
+	(label "ESPConnectLED"
+		(at 212.09 156.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dc0fbcef-c1ce-4ccc-8313-10b378db8048")
+	)
 	(label "ConnectLED"
 		(at 260.35 156.21 0)
 		(effects
@@ -4703,16 +4713,6 @@
 			(justify left bottom)
 		)
 		(uuid "dfc5364d-131d-421e-9de0-0c0d13823d31")
-	)
-	(label "ConnectLED"
-		(at 212.09 156.21 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f52cfaea-49c0-41db-b748-8beac4a9db1c")
 	)
 	(label "EStopLED"
 		(at 30.48 132.08 180)
