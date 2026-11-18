@@ -2940,170 +2940,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_Push"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "SW"
-				(at 1.27 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "SW_Push"
-				(at 0 -1.524 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Push button switch, generic, two pins"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "switch normally-open pushbutton push-button"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SW_Push_0_1"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 0 3.048)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy -2.54 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+3.3V"
 			(power global)
 			(pin_numbers
@@ -4605,16 +4441,6 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 44.45) (xy 149.86 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "681028d9-b810-4237-8fa5-6cdaa90c42d7")
-	)
-	(wire
-		(pts
 			(xy 196.85 156.21) (xy 212.09 156.21)
 		)
 		(stroke
@@ -4635,7 +4461,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 83.82) (xy 87.63 83.82)
+			(xy 53.34 82.55) (xy 66.04 82.55)
 		)
 		(stroke
 			(width 0)
@@ -4765,6 +4591,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 41.91) (xy 149.86 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0934af2-1d0b-4336-a2d2-4b8dec9e8e01")
+	)
+	(wire
+		(pts
 			(xy 44.45 43.18) (xy 77.47 43.18)
 		)
 		(stroke
@@ -4785,6 +4621,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 44.45) (xy 149.86 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4a1e6e7-a1f2-4de5-9476-8ed1bde327f8")
+	)
+	(wire
+		(pts
 			(xy 196.85 151.13) (xy 212.09 151.13)
 		)
 		(stroke
@@ -4802,16 +4648,6 @@
 			(type default)
 		)
 		(uuid "c971f139-e86a-4323-abde-54363dcf8667")
-	)
-	(wire
-		(pts
-			(xy 128.27 39.37) (xy 149.86 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb98e779-fe69-43bb-9b3b-8821ac1f50bd")
 	)
 	(wire
 		(pts
@@ -4863,26 +4699,6 @@
 		)
 		(uuid "d651cc04-dd07-41c1-a891-21cf7c728a0f")
 	)
-	(wire
-		(pts
-			(xy 57.15 83.82) (xy 64.77 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d79a0e4d-1dee-4580-9ff4-b729b7cc9bec")
-	)
-	(wire
-		(pts
-			(xy 38.1 83.82) (xy 46.99 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d86c266a-2e0d-4970-b6ae-8ad02ee48bb8")
-	)
 	(polyline
 		(pts
 			(xy 177.165 97.155) (xy 177.165 167.005)
@@ -4892,16 +4708,6 @@
 			(type dash)
 		)
 		(uuid "dc04362f-74dd-4a1d-b21d-de2e21dbf430")
-	)
-	(wire
-		(pts
-			(xy 128.27 41.91) (xy 149.86 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e30c2c74-c08f-4367-91db-b02f659489ed")
 	)
 	(wire
 		(pts
@@ -4965,7 +4771,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 86.36) (xy 87.63 86.36)
+			(xy 44.45 85.09) (xy 66.04 85.09)
 		)
 		(stroke
 			(width 0)
@@ -5093,16 +4899,6 @@
 		)
 		(uuid "44fd445f-78e7-46bc-88c5-29492bf23b5a")
 	)
-	(label "HC12_TX"
-		(at 44.45 43.18 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5863a1f1-8223-4ef4-9855-79c11c207416")
-	)
 	(label "HC12_RX"
 		(at 121.92 153.67 180)
 		(effects
@@ -5114,7 +4910,7 @@
 		(uuid "5c9bcab8-a13b-4b99-be4c-43d69c2073fc")
 	)
 	(label "Reset"
-		(at 29.21 86.36 180)
+		(at 44.45 85.09 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5122,16 +4918,6 @@
 			(justify right bottom)
 		)
 		(uuid "67f9c2ab-b4ad-4a98-a306-45b70d580bf8")
-	)
-	(label "HC12_RX"
-		(at 44.45 40.64 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7022bb34-e86a-4f7c-bf80-bd459f8626d7")
 	)
 	(label "ESPDisconnectLED"
 		(at 121.92 168.91 180)
@@ -5184,7 +4970,7 @@
 		(uuid "a03b6a29-ebd7-40ec-8502-5d75a1296c24")
 	)
 	(label "EStopSignal"
-		(at 140.97 44.45 180)
+		(at 149.86 39.37 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5192,6 +4978,16 @@
 			(justify right bottom)
 		)
 		(uuid "a7523d61-420f-4985-bad9-2b43f5c3ddf6")
+	)
+	(label "HC12_TX"
+		(at 44.45 40.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "af477f59-6948-448f-9353-8bed380ff749")
 	)
 	(label "EStopLED"
 		(at 260.35 151.13 0)
@@ -5222,6 +5018,16 @@
 			(justify left bottom)
 		)
 		(uuid "dfc5364d-131d-421e-9de0-0c0d13823d31")
+	)
+	(label "HC12_RX"
+		(at 44.45 43.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f4d265f2-237b-4fb1-b06b-9752c893be50")
 	)
 	(label "EStopLED"
 		(at 30.48 132.08 180)
@@ -5350,88 +5156,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 52.07 83.82 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0ede6e4e-7695-4fdf-889b-5f97c19a2c91")
-		(property "Reference" "SW1"
-			(at 52.07 76.2 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 52.07 78.74 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
-			(at 52.07 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 52.07 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 52.07 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "28bb450e-2e44-466d-8b4f-80900ed64d59")
-		)
-		(pin "1"
-			(uuid "06fe0af6-0b67-4e6d-a3bf-3873c60c3fb9")
-		)
-		(instances
-			(project "estop_receiver"
-				(path "/e9da9779-c0c7-459b-8a5e-d0c825dd61e8"
-					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
-		(at 128.27 41.91 90)
+		(at 138.43 44.45 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5442,7 +5168,7 @@
 		(fields_autoplaced yes)
 		(uuid "0ee30cdc-03d9-4a54-bab3-dc13913ab2f2")
 		(property "Reference" "#PWR025"
-			(at 132.08 41.91 0)
+			(at 142.24 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5453,7 +5179,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 124.46 41.9101 90)
+			(at 134.62 44.4501 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5464,7 +5190,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 128.27 41.91 0)
+			(at 138.43 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5475,7 +5201,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 128.27 41.91 0)
+			(at 138.43 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5486,7 +5212,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 128.27 41.91 0)
+			(at 138.43 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6638,7 +6364,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 92.71 83.82 0)
+		(at 71.12 82.55 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6649,7 +6375,7 @@
 		(fields_autoplaced yes)
 		(uuid "626a926d-8ac8-4672-a6e4-c4ef95fdb2b7")
 		(property "Reference" "J6"
-			(at 95.25 83.8199 0)
+			(at 73.66 82.5499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6660,7 +6386,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 95.25 86.3599 0)
+			(at 73.66 85.0899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6671,7 +6397,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 92.71 83.82 0)
+			(at 71.12 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6682,7 +6408,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 92.71 83.82 0)
+			(at 71.12 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6693,7 +6419,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 92.71 83.82 0)
+			(at 71.12 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7118,7 +6844,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 128.27 39.37 270)
+		(at 138.43 41.91 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7129,7 +6855,7 @@
 		(fields_autoplaced yes)
 		(uuid "78835ea7-48bc-4eea-aff4-7f2504965fe5")
 		(property "Reference" "#PWR026"
-			(at 121.92 39.37 0)
+			(at 132.08 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7140,7 +6866,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 124.46 39.3701 90)
+			(at 134.62 41.9101 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7151,7 +6877,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 128.27 39.37 0)
+			(at 138.43 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7162,7 +6888,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 128.27 39.37 0)
+			(at 138.43 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7173,7 +6899,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 128.27 39.37 0)
+			(at 138.43 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7331,86 +7057,6 @@
 			(project "estop_receiver"
 				(path "/e9da9779-c0c7-459b-8a5e-d0c825dd61e8"
 					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 69.85 83.82 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8ceef947-262c-4513-aeb5-ae33f9846d53")
-		(property "Reference" "SW2"
-			(at 69.85 76.2 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 69.85 78.74 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
-			(at 69.85 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 69.85 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 69.85 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "214ae9f5-307a-4e54-9e00-6c005f965d60")
-		)
-		(pin "1"
-			(uuid "2a3f985c-9152-4cd3-a01b-d505a38c2c27")
-		)
-		(instances
-			(project "estop_receiver"
-				(path "/e9da9779-c0c7-459b-8a5e-d0c825dd61e8"
-					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -7788,7 +7434,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 38.1 83.82 270)
+		(at 53.34 82.55 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7799,7 +7445,7 @@
 		(fields_autoplaced yes)
 		(uuid "95962eb5-76ee-4814-968c-4399b820ae72")
 		(property "Reference" "#PWR021"
-			(at 31.75 83.82 0)
+			(at 46.99 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7810,7 +7456,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 34.29 83.8199 90)
+			(at 49.53 82.5499 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7821,7 +7467,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 38.1 83.82 0)
+			(at 53.34 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7832,7 +7478,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 83.82 0)
+			(at 53.34 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7843,7 +7489,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 38.1 83.82 0)
+			(at 53.34 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
