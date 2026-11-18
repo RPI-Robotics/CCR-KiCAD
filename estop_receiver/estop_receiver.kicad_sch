@@ -3388,6 +3388,16 @@
 		)
 		(uuid "371742c2-9f56-4e3d-a3bc-a6c484fd756d")
 	)
+	(text "ESP32 Power Decoupling"
+		(exclude_from_sim no)
+		(at 144.272 71.628 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "41ab9798-da2b-486d-982c-b1011cff6867")
+	)
 	(text "GND"
 		(exclude_from_sim no)
 		(at 149.352 181.864 0)
@@ -3775,6 +3785,12 @@
 		(uuid "0a7afd9e-a4e1-4a58-a84f-9ba915b9f618")
 	)
 	(junction
+		(at 143.51 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3a3e3ef7-f76c-42ab-8e0c-cd802a84700f")
+	)
+	(junction
 		(at 33.02 187.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3809,6 +3825,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b9b3492f-40c2-4ead-831c-fa050a384fa5")
+	)
+	(junction
+		(at 143.51 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ca4193dc-4c18-4928-b5ed-62374d5a5fcb")
 	)
 	(no_connect
 		(at 157.48 179.07)
@@ -3857,10 +3879,6 @@
 	(no_connect
 		(at 121.92 148.59)
 		(uuid "8f20d2ff-45eb-492d-a2e8-2fe2c5bd985d")
-	)
-	(no_connect
-		(at 121.92 181.61)
-		(uuid "9bd70da3-d177-4f4d-8bb8-c3eb186ecbc0")
 	)
 	(no_connect
 		(at 157.48 133.35)
@@ -3956,6 +3974,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 87.63) (xy 158.75 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a55982b-1b86-474c-8270-9f90e0e64afe")
+	)
+	(wire
+		(pts
 			(xy 36.83 30.48) (xy 46.99 30.48)
 		)
 		(stroke
@@ -4006,6 +4034,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 87.63) (xy 143.51 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21dfc5d8-e0d6-4df5-85ff-19228da8b21f")
+	)
+	(wire
+		(pts
 			(xy 29.21 166.37) (xy 38.1 166.37)
 		)
 		(stroke
@@ -4013,6 +4051,16 @@
 			(type default)
 		)
 		(uuid "23d236d7-ffa0-4961-9fb5-3e462d1e43c5")
+	)
+	(wire
+		(pts
+			(xy 143.51 80.01) (xy 158.75 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2715280a-4942-4472-ab49-5a5ce0e9d495")
 	)
 	(polyline
 		(pts
@@ -4244,6 +4292,16 @@
 		)
 		(uuid "71270024-87e9-4550-92fa-f676d1e35d81")
 	)
+	(polyline
+		(pts
+			(xy 177.165 97.155) (xy 177.165 57.785)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "7b3ba810-496c-4d4a-bf7a-273ebe576106")
+	)
 	(wire
 		(pts
 			(xy 33.02 187.96) (xy 53.34 187.96)
@@ -4286,6 +4344,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 181.61) (xy 121.92 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a2980f5-7717-4d52-a4a6-38d6cc53500c")
+	)
+	(wire
+		(pts
 			(xy 43.18 132.08) (xy 43.18 128.27)
 		)
 		(stroke
@@ -4313,6 +4381,16 @@
 			(type default)
 		)
 		(uuid "abfdb0d3-572f-4d32-be52-ede1e79a48f4")
+	)
+	(polyline
+		(pts
+			(xy 111.125 57.785) (xy 177.165 57.785)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "ad6b8faf-fe67-4368-acb6-3381d7893827")
 	)
 	(wire
 		(pts
@@ -4493,6 +4571,16 @@
 			(type default)
 		)
 		(uuid "f1c22015-9316-4d7c-bc77-122b7d167ba3")
+	)
+	(wire
+		(pts
+			(xy 132.08 80.01) (xy 143.51 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f483c6be-3635-4f78-bc29-b3afda14454f")
 	)
 	(wire
 		(pts
@@ -5730,6 +5818,164 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 113.03 181.61 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "43a24f93-9a5e-4c57-8834-a356a38fec58")
+		(property "Reference" "#PWR022"
+			(at 116.84 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 109.22 181.6099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 113.03 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "49b0e81e-e2f4-4597-9ce0-abfa7eb3ff4d")
+		)
+		(instances
+			(project "estop_receiver"
+				(path "/e9da9779-c0c7-459b-8a5e-d0c825dd61e8"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 132.08 87.63 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "44c10657-6dfe-4a49-9205-fda9c34056db")
+		(property "Reference" "#PWR023"
+			(at 125.73 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 128.27 87.6299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 132.08 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0c20c03e-a37f-4ebe-98cf-932d4937a129")
+		)
+		(instances
+			(project "estop_receiver"
+				(path "/e9da9779-c0c7-459b-8a5e-d0c825dd61e8"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 157.48 130.81 90)
 		(unit 1)
@@ -5891,6 +6137,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 132.08 80.01 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "627cfecc-9a75-41c7-9a7b-5b78db5376f4")
+		(property "Reference" "#PWR024"
+			(at 135.89 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 128.27 80.0099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 132.08 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "88793a04-9b04-4f03-9989-7475a213ec65")
+		)
+		(instances
+			(project "estop_receiver"
+				(path "/e9da9779-c0c7-459b-8a5e-d0c825dd61e8"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 157.48 184.15 90)
 		(unit 1)
@@ -6043,6 +6368,88 @@
 			(project "estop_receiver"
 				(path "/e9da9779-c0c7-459b-8a5e-d0c825dd61e8"
 					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 158.75 83.82 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6f1ec4fa-786e-4ec2-9bbe-662a10c8d7f2")
+		(property "Reference" "C4"
+			(at 162.56 82.5499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 162.56 85.0899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 159.7152 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 158.75 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "bd167fd2-246a-4e33-a235-b2a295ef3975")
+		)
+		(pin "1"
+			(uuid "95c4864a-7728-4663-8b33-c43ce8405c4f")
+		)
+		(instances
+			(project "estop_receiver"
+				(path "/e9da9779-c0c7-459b-8a5e-d0c825dd61e8"
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -7943,6 +8350,88 @@
 			(project "estop_receiver"
 				(path "/e9da9779-c0c7-459b-8a5e-d0c825dd61e8"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 143.51 83.82 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ce4cb554-ae2a-4e32-8b6e-cb066d5c42ae")
+		(property "Reference" "C3"
+			(at 147.32 81.6609 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2200uF"
+			(at 147.32 84.2009 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P2.50mm"
+			(at 144.4752 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 143.51 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "aac04766-82cd-4ff7-8c49-ab861487b602")
+		)
+		(pin "1"
+			(uuid "11849ded-795d-4e26-b04a-ad2e2239d7ad")
+		)
+		(instances
+			(project "estop_receiver"
+				(path "/e9da9779-c0c7-459b-8a5e-d0c825dd61e8"
+					(reference "C3")
 					(unit 1)
 				)
 			)
